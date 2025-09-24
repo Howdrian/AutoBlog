@@ -38,12 +38,12 @@ PUBLIC_SANITY_API_VERSION=2024-01-01
 #### 更新站点URL：
 在 `src/site.config.ts` 中更新：
 ```typescript
-url: "https://your-domain.vercel.app/"
+url: "https://getsomedrink.vercel.app/"
 ```
 
 #### Sanity CORS配置：
 ```bash
-sanity cors add https://your-domain.vercel.app
+sanity cors add https://getsomedrink.vercel.app
 ```
 
 ## 🛠️ 本地开发

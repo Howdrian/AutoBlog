@@ -26,8 +26,8 @@ export const siteConfig: SiteConfig = {
 		- In the footer found in src/components/layout/Footer.astro L:12
 	*/
 	title: "储物室",
-	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
-	url: "https://hacccc.vercel.app", // Vercel部署域名
+	// ! 请保持与线上部署域名一致，供 OG 图、Sitemap 等功能使用
+	url: "https://getsomedrink.vercel.app", // Vercel 部署域名
 };
 
 // Used to generate links in both the Header & Footer.

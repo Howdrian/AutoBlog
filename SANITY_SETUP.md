@@ -43,7 +43,7 @@ npx @sanity/cli whoami
 
 # 配置CORS
 npx @sanity/cli cors add http://localhost:4322 --credentials
-npx @sanity/cli cors add https://您的域名.vercel.app --credentials
+npx @sanity/cli cors add https://getsomedrink.vercel.app --credentials
 ```
 
 **或者本地安装（项目级别，已配置）**
@@ -62,7 +62,7 @@ npx sanity whoami
 pnpm sanity:cors http://localhost:4322 --credentials
 
 # 配置CORS（生产环境）
-pnpm sanity:cors https://您的域名.vercel.app --credentials
+pnpm sanity:cors https://getsomedrink.vercel.app --credentials
 ```
 
 ### 5. 配置CORS (跨域访问权限)
@@ -72,7 +72,7 @@ pnpm sanity:cors https://您的域名.vercel.app --credentials
 npx @sanity/cli cors add http://localhost:4322 --credentials
 
 # 生产环境 (部署到Vercel后执行)
-npx @sanity/cli cors add https://您的域名.vercel.app --credentials
+npx @sanity/cli cors add https://getsomedrink.vercel.app --credentials
 ```
 
 ## 🛠️ 使用Sanity Studio
@@ -125,7 +125,7 @@ npx @sanity/cli cors add http://localhost:4322 --credentials
 ### Q: 部署后无法访问Sanity？
 A: 添加生产环境CORS：
 ```bash
-npx @sanity/cli cors add https://您的域名.vercel.app --credentials
+npx @sanity/cli cors add https://getsomedrink.vercel.app --credentials
 ```
 
 ### Q: API版本有什么影响？

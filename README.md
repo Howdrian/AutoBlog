@@ -82,7 +82,7 @@ sanity login
 sanity cors add http://localhost:4322
 
 # 添加 CORS (生产环境)
-sanity cors add https://your-domain.vercel.app
+sanity cors add https://getsomedrink.vercel.app
 ```
 
 ## 🔍 使用指南
