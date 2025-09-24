@@ -78,7 +78,7 @@ npx @sanity/cli cors add https://getsomedrink.vercel.app --credentials
 ## 🛠️ 使用Sanity Studio
 
 ### 方法1：在线Studio (推荐)
-访问：`https://pc4vypln.sanity.studio/`
+访问：`https://autohac.sanity.studio/`
 
 ### 方法2：本地Studio
 ```bash

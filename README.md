@@ -67,7 +67,7 @@ PUBLIC_SANITY_API_VERSION=2024-01-01
 1. 在 [sanity.io](https://sanity.io) 创建新项目
 2. 获取项目 ID 并更新环境变量
 3. 配置 CORS 允许您的域名
-4. 访问 `https://pc4vypln.sanity.studio/` 开始创作
+4. 访问 `https://autohac.sanity.studio/` 开始创作
 
 ### 本地 Sanity Studio
 
