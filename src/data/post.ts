@@ -11,6 +11,7 @@ interface RawSanityPost {
   description: string;
   publishDate: string;
   updatedDate?: string;
+  category?: "post" | "note";
   tags: string[];
   featured: boolean;
   draft: boolean;
@@ -38,6 +39,7 @@ export async function getAllPosts(): Promise<SanityPost[]> {
         description: post.description,
         publishDate: new Date(post.publishDate),
         updatedDate: post.updatedDate ? new Date(post.updatedDate) : undefined,
+        category: post.category ?? "post",
         tags: post.tags || [],
         featured: post.featured ?? false,
         draft: post.draft ?? false,
@@ -48,7 +50,7 @@ export async function getAllPosts(): Promise<SanityPost[]> {
     };
   });
 
-  return transformedPosts;
+	return transformedPosts.filter((post) => (post.data.category ?? "post") === "post");
 }
 
 

@@ -27,6 +27,7 @@ export async function getBlogPosts() {
     description,
     publishDate,
     updatedDate,
+    category,
     tags,
     featured,
     coverImage{
@@ -54,6 +55,7 @@ export async function getBlogPost(slug: string) {
     description,
     publishDate,
     updatedDate,
+    category,
     tags,
     featured,
     coverImage{

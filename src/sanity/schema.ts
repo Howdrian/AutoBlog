@@ -35,6 +35,20 @@ export const blog = defineType({
 			validation: (Rule) => Rule.required(),
 		}),
 		defineField({
+			name: "category",
+			title: "分类",
+			type: "string",
+			options: {
+				list: [
+					{ title: "博客", value: "post" },
+					{ title: "笔记", value: "note" },
+				],
+				layout: "radio",
+			},
+			initialValue: "post",
+			validation: (Rule) => Rule.required(),
+		}),
+		defineField({
 			name: "updatedDate",
 			title: "更新日期",
 			type: "datetime",

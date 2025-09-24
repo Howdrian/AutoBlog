@@ -92,6 +92,7 @@ export interface SanityPost {
 		description: string;
 		publishDate: Date;
 		updatedDate?: Date;
+		category: "post" | "note";
 		tags: string[];
 		featured: boolean;
 		draft: boolean;
